@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    color: black;
+    -webkit-text-fill-color: rgb(243, 63, 46);
+    -webkit-text-stroke-width: 1px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    -webkit-text-fill-color: rgb(243, 63, 46);
+    -webkit-text-stroke-width: 1px;
+}
+
+h4 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(211, 251, 221);
+}
+
+form{
+
+    background-color: rgb(250, 121, 109);
+}
+img {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    height: 225px;
+    width: 400px;
+    opacity: .75;
+    border-radius: 16px;
+}

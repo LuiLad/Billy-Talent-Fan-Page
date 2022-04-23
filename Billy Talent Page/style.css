@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap'); */
+
+@font-face {
+    font-family: highvoltage_rough;
+    src: url(/fonts/HighVoltage\ Rough.ttf);
+}
+
+header {
+    display: grid;
+    
+}
+
+.logoCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 50px;
+    height: 90px;
+    width: 396px;
+    
+}
+
+#band-image {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 620px;
+    width: 1114px;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: highvoltage_rough;
+    text-align: center;
+    
+    
+    
+}
+
+.pulse{
+    
+    margin-top: 2%;
+    color: transparent;
+    background-image: repeating-linear-gradient(to right, rgb(209, 130, 203), rgb(200,40,200),rgb(91, 91, 224),rgb(23, 23, 73));
+    -webkit-background-clip: text;
+    animation: pulse 4s linear infinite;
+    background-color: blue;
+    background-size: 1000%;
+}
+
+@keyframes pulse{
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+header nav {
+        text-align: center;
+        background-color: rgb(20, 20, 44);
+         
+}
+
+
+
+header nav  a{
+    font-family: highvoltage_rough;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    color : rgb(240, 235, 222); 
+}
+
+
+body {
+    background-color: rgb(240, 235, 222);
+}
+
+blockquote{
+    text-align: center;
+font-style: italic;
+
+}
+
+
+li {
+    text-align: center;
+}
+.tour-info {
+    text-align: left;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+table{
+    border-collapse: collapse;
+    width: 66%;
+    
+}
+tr {
+    border-bottom:1px solid rgb(20, 20, 44);
+    
+}
+
+h5{
+    font-family: highvoltage_rough;
+    margin-top: 0%;
+    color: rgb(209, 130, 203);
+}
+
+#ticket-box{
+    font-family: highvoltage_rough;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    color : rgb(240, 235, 222);
+    
+}
+
+#nav-ticket{
+    text-align: center;
+    background-color: rgb(209, 130, 203);
+    width: 70%; 
+        
+}
+
+
+
+
+#mailing-list{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: center;
+}
+footer h10{
+    margin-right: 5px;
+}
+
+footer a{
+    
+    border-bottom: 1px solid rgb(20, 20, 44);
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+table{
+    font-family: highvoltage_rough;
+    font-size: 20px;
+    width: 1114px;
+}
+
+
